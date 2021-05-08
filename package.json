@@ -1,0 +1,27 @@
+{
+  "name": "realtime-decisions-services",
+  "version": "1.0.0",
+  "description": "Realtime Decisions Services",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishchay3/realtime-decisions-services.git"
+  },
+  "author": "Nishchay Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishchay3/realtime-decisions-services/issues"
+  },
+  "homepage": "https://github.com/nishchay3/realtime-decisions-services#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  }
+}
